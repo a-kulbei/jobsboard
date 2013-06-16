@@ -1,7 +1,13 @@
 Jobboard::Application.routes.draw do
+  get "jobs/index"
+
+  get "jobs/show"
+
   get "home/index"
 
-  root :to => 'home#index'
+  root :to => 'jobs#index'
+  match 'jobs/:id' => 'jobs#show'
+  match '/newposition' => 'home#newposition'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

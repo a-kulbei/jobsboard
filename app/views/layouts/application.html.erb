@@ -12,18 +12,17 @@
 	<%= yield(:head) %>
 </head>
 <body>
-
 <div id="main" role="main">
-	<div class="container">
+	<div class="container container-narrow">
 		<div class="content">
-			<div class="row">
-				<div class="span12">
+			<div class="row-fluid">
 				<%= render 'layouts/messages' %>
 				<%= yield %>
-				</div>
 			</div>
 
+			<hr />
 			<footer>
+				<p><a href="mailto:a.kulbei@gmail.com">Contact us</a> | Developed by &copy; <a href="http://goodenough.herokuapp.com/">Good Enough Production 2013</a></p>
 			</footer>
 		</div>
 	</div> <!--! end of .container -->
