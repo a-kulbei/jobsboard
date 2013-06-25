@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def newposition
   end
+
+  def help
+  end
 end
