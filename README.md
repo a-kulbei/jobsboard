@@ -1,4 +1,6 @@
 jobsboard
 =========
 
-This is open source project. Job board application developed on Ruby on Rails, for Krakow Startup Community.
+Ruby on Rails application, developed for Krakow Startup Community.
+
+LICENCE: CC BY-NC-SA 3.0
