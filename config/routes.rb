@@ -1,4 +1,6 @@
 Jobboard::Application.routes.draw do
+  devise_for :users
+
   get "jobs/index"
 
   get "jobs/show"
